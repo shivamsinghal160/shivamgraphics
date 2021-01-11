@@ -62,6 +62,7 @@
 }
 #sidenav{
     margin-right: 3.5%;
+    transition: 1s;
 }
 nav ul li {
     list-style: none ;
