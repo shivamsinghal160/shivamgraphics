@@ -75,6 +75,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: large;
+    transition: 1.2s;
 }
 #menu{
     width: 20px;
