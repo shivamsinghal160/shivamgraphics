@@ -250,7 +250,7 @@ border-color: #62c2b8;
     width: 20%;
     color:#009688;
     background-color: transparent;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 #send:hover{
     background-color: #009688;
