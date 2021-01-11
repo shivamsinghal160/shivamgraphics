@@ -62,7 +62,6 @@
 }
 #sidenav{
     margin-right: 3.5%;
-    transition: 1s;
 }
 nav ul li {
     list-style: none ;
@@ -70,12 +69,13 @@ nav ul li {
     margin-right: 1.5%;
     padding-left: 20px; 
     float: right;  
+    
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: large;
-    transition: 1.2s;
+  
 }
 #menu{
     width: 20px;
@@ -252,12 +252,12 @@ border-color: #62c2b8;
     width: 20%;
     color:#009688;
     background-color: transparent;
-    transition: 1.2s;
+    transition: 0.5s;
 }
 #send:hover{
     background-color: #009688;
     color: white;
-    border-color:#009688;
+    border: none;
 }
 option{
     color:black;
