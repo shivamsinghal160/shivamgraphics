@@ -14,6 +14,7 @@
     top: 4%;
     left: 8%;
     width: 160px;
+    height: auto;
     position: absolute;
 }
 .banner-text{
@@ -267,14 +268,17 @@ option{
 }
 .social .img1{
     width:20px;
+    height: auto;
     padding: 5px;
 }
 .social .img2{
     width:20px;
+    height: auto;
     padding:5px;
 }
 .social .img3{
     width:20px;
+    height: auto;
     padding:5px;
 }
 .section4{
