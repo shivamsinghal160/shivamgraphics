@@ -65,6 +65,7 @@ html{
 }
 #navbar{
     margin-right: 3.5%;
+    Position:sticky;
 }
 nav ul li {
     list-style: none ;
