@@ -67,7 +67,7 @@
         <h2>Contact Us</h2>
 
         <div class="form">
-            <form action="https://script.google.com/macros/s/AKfycbyorp4-qzJxVqMGDMtZlCZ-x_BI_I6dT5BeguXc_Q/exec" method="POST" name="form" data-email="graphics.shivamsinghal@gmail.com" >
+            <form action="https://script.google.com/macros/s/AKfycbyUctoeI-DnV9rFeQoWamF19yux0_FOB5Cp7zwcyly1wbOPlGE6/exec" method="POST" name="form" data-email="graphics.shivamsinghal@gmail.com" >
                 <p><input type="text" name="name" id="name"
                         placeholder="Your Full Name*" required>
                 <input type="email" name="email" id="email"
@@ -86,17 +86,6 @@
     
             </form>
         </div>
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyorp4-qzJxVqMGDMtZlCZ-x_BI_I6dT5BeguXc_Q/exec'
-            const form = document.forms['google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
-            })
-            </script>
     </section>
     <section class="section4">
         <h3>Shivam Graphics</h3>
@@ -119,7 +108,18 @@
             <span style="color: aliceblue;"> &copy; 2021 </span>SHIVAM GRAPHICS
        </div> 
     </footer>
-    
+     <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyUctoeI-DnV9rFeQoWamF19yux0_FOB5Cp7zwcyly1wbOPlGE6/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+            </script>
+       
     
 </body>
 </html>
