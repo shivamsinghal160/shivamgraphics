@@ -234,6 +234,7 @@ footer a:hover{
     margin-left: 15px;
     text-align: center;
     transition: 0.5s;
+    border-radius: 5px;
     
 }
 #message{
@@ -242,6 +243,7 @@ footer a:hover{
     border-color: white;
     color: white;
     padding:10px;
+    border-radius: 5px;
 }
 ::placeholder{
     color:white;
@@ -250,18 +252,18 @@ footer a:hover{
 border-color: #62c2b8;
 }
 #send{
-    border:1px solid white;
+    border:3px solid white;
     font-size: 30px;
     height: 50px;
     width: 20%;
-    color:#009688;
+    color:#fff;
     background-color: transparent;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 #send:hover{
-    background-color: #009688;
-    color: white;
-    border: none;
+    background-color: #fff;
+    color: #009688;
+    border: 3px solid #fff;
 }
 option{
     color:black;
