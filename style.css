@@ -100,7 +100,7 @@ nav ul li a{
 }
 
 
-#sidenav nav ul li a:hover{
+#navbar nav ul li a:hover{
     color: #009688;
     transition: 0.4s;
 
