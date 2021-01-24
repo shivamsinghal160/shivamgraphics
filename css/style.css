@@ -7,7 +7,7 @@
         list-style: none;
     }
     #banner{
-        background:linear-gradient(rgba(0,0,0,0.82),#009688),url(images/Section3.jpg);
+        background:linear-gradient(rgba(0,0,0,0.82),#009688),url(/images/Section3.jpg);
         background-position: center;
         background-size: cover;
         height: 100vh;
@@ -138,7 +138,7 @@
         padding-top: 5px;
     }
     .section2{
-        background: linear-gradient(#009688,#07332fda,#009688),url(images/Section2.jpg);
+        background: linear-gradient(#009688,#07332fda,#009688),url(/images/Section2.jpg);
         background-position: center;
         background-size: cover;
         height: 100vh;
@@ -226,7 +226,7 @@
         color:#009688;
     }
     .section3{
-        background: linear-gradient(#009688,#07332fda),url(images/banner.jpg);
+        background: linear-gradient(#009688,#07332fda),url(/images/banner.jpg);
         background-position: center;
         background-size: cover;
         height: 100vh;
