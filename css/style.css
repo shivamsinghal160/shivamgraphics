@@ -215,6 +215,7 @@
         color:#fff;
         text-decoration: none;
         margin: 9px;
+        transition: all 1.2s;
         
     }
     .copy {
