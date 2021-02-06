@@ -25,7 +25,6 @@ footer{
    flex-direction: column;
    justify-content: center;
    align-content: center;
-   position: fixed;
 }
 #contact h2{
     padding-top: 10vh;
@@ -41,4 +40,3 @@ footer{
 #contact{
     Position:Fixed;
 }
-
