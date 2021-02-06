@@ -1,6 +1,12 @@
 .banner-text h1{
     font-size: 55px;   
 }
+nav ul li {
+    padding:11px 10px;
+}
+nav ul li a {
+    font-size:600;
+}
 .banner-text p{
     font-size: 15px;
 }
@@ -19,6 +25,9 @@ footer{
    flex-direction: column;
    justify-content: center;
    align-content: center;
+}
+#contact h2{
+    padding-top: 10vh;
 }
 .fot{
     text-align: center;
