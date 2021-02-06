@@ -1,0 +1,35 @@
+.banner-text{
+    padding-top:20vh ;
+}
+
+#name,#email,#gender,#subject{
+    width: 90%;
+}
+#message{
+    width: 90%;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.abouttext{
+    font-size: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.service1{
+    font-size: 40px;
+    margin-top: 5px;
+}
+h2{
+    margin-bottom: 0;
+}
+#aboutme{
+    padding-top:11vh ;
+}
+#contact{
+    padding-top: 5vh;
+}
+.bar{
+    margin-top: 25px;
+}

@@ -1,0 +1,30 @@
+.banner-text h1{
+    font-size: 55px;   
+}
+.banner-text p{
+    font-size: 15px;
+}
+.abouttext{
+    font-size: 20px;
+}
+.service1{
+    font-size: 25px;
+}
+#send{
+    font-size: 20px;
+    width: 150px;
+}
+footer{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+}
+.fot{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.copy{
+    margin-top: 2px;
+    text-align: center;
+}
