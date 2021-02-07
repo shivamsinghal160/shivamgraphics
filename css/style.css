@@ -304,6 +304,20 @@
     #name:hover,#email:hover,#gender:hover,#subject:hover , #message:hover{
     border-color: #62c2b8;
     }
+#reset{
+        border:3px solid white;
+        font-size: 30px;
+        height: 50px;
+        width: 18%;
+        color:#fff;
+        background-color: transparent;
+        transition: 0.7s;
+    }
+ #reset:hover{
+        background-color: #fff;
+        color: #009688;
+        border:3px solid #fff;
+    }
     #send{
         border:3px solid white;
         font-size: 30px;
