@@ -78,9 +78,9 @@
     <section id="contact" class="section3">
         <h2>Contact Us</h2>
 
-        <div class="form">
+        <div class="form-box">
             <form action="https://script.google.com/macros/s/AKfycbzosY20YkLS168MqOcfMjpRBtq13vncS8wSsk24/exec"
-                method="POST" name="form" class="form-box">
+                method="POST" name="form" class="form">
                 <p><input type="text" name="name" id="name" class="Forminput" placeholder="Your Full Name*" required  ></p>
                 <p> <input type="email" name="email" id="email" class="Forminput" placeholder="Your Valid E-mail*"
                         required autocomplete="none" >
@@ -101,6 +101,17 @@
 
             </form>
         </div>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzosY20YkLS168MqOcfMjpRBtq13vncS8wSsk24/exec'
+            const form = document.forms['form']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => alert("Thanks for Contacting us...! We Will Contact You Shortly..."))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
     </section>
     <section class="section4">
         <h3>Shivam Graphics</h3>
