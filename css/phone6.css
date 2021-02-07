@@ -14,6 +14,9 @@ nav ul li a {
 .abouttext{
     font-size: 20px;
 }
+.abouttext p{
+Margin-bottom: 7px;
+}
 .service1{
     font-size: 25px;
 }
