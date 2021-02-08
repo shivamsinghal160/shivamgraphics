@@ -24,12 +24,12 @@ Margin-bottom: 12px;
 #send{
     font-size: 23px;
     width: 92px;
-    height: 30px;
+    height: 33px;
 }
 #reset{
     font-size: 23px;
     width: 85px;
-    height: 30px;
+    height: 33px;
 }
 footer{
    display:flex;
@@ -42,7 +42,7 @@ footer{
 }
 .service1 li{
     height:80px;
-    width:230px;
+    width:260px;
 }
 .fillall{
     margin-left: 3% !important ;
