@@ -4,3 +4,13 @@
 .service1{
     font-size: 45px;
 }
+.service1 ul li{
+    width:420px;
+    height: 120px;
+}
+.bar{
+    width: 42vw;
+}
+.abouttext p{
+    margin-bottom: 10px;
+}
