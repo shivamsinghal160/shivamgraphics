@@ -89,7 +89,7 @@
     nav ul li a{
         text-decoration: none;
         color: #fff;
-        font-size: large;
+        font-size: 20px;
         
     
     }
@@ -120,7 +120,7 @@
     nav{
         position: fixed;
         top: 15px;
-        right: 4%;
+        right: 33%;
     }
    
     #navbar nav ul li a:hover{
@@ -128,6 +128,32 @@
         transition: 0.4s;
 
     }
+    .date{
+        position: fixed;
+        right: 1.4%;
+        top: 15px;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        padding:0;
+    }
+    .btn {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    } 
+    .time{
+        position: fixed;
+        right: 2%;
+        top: 40px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .abouttext p{
+        Margin-bottom: 12px;
+        }
+        .service1{
+        Margin-top: 15px;
+        }
     h2{
         color: white;
         font-size: 55px;

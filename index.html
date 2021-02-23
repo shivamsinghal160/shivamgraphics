@@ -38,6 +38,8 @@
                     </li>
                 </ul>
             </nav>
+            <p class="date"> <span style="color: #009688;"> Date: </span><span id="date"></span></p>
+            <p class="time"> <span style="color: #009688;"> Time: </span><span id="time"></span></p>
         </div>
     </div>
     <section id="banner" class="bannerbk">
@@ -72,18 +74,20 @@
                     <li>Adobe XD<span class="bar"><span class="xd"></span></span></li>
                 </ul>
             </div>
-            
+
         </div>
     </section>
     <section id="contact" class="section3">
         <h2>Contact Us</h2>
 
         <div class="form-box">
-            <form action="https://script.google.com/macros/s/AKfycbxsmAUN2qUsc1hY6pUUcEQuzy9oKNpZNzTzU9tbD1Xgac6LQoA/exec"
+            <form
+                action="https://script.google.com/macros/s/AKfycbxsmAUN2qUsc1hY6pUUcEQuzy9oKNpZNzTzU9tbD1Xgac6LQoA/exec"
                 method="POST" autocomplete="off" name="form" class="form">
-                <p><input type="text" name="name" id="name" class="Forminput" placeholder="Your Full Name*" required  ></p>
+                <p><input type="text" name="name" id="name" class="Forminput" placeholder="Your Full Name*" required>
+                </p>
                 <p> <input type="email" name="email" id="email" class="Forminput" placeholder="Your Valid E-mail*"
-                        required  >
+                        required>
                 </p>
                 <p><label for="gender"> <select name="gender" id="gender" class="Forminput" required>
                             <option id="syg" value=""> Select Your Gender*</option>
@@ -91,29 +95,18 @@
                             <option value="female">Female</option>
                             <option value="transgender">Transgender</option>
                         </select></label></p>
-                        <p><input type="text" name="subject" id="subject" class="Forminput" placeholder="Your Subject">
+                <p><input type="text" name="subject" id="subject" class="Forminput" placeholder="Your Subject">
                 </p>
                 <p><textarea name="message" id="message" class="Forminput" cols="54" rows="4"
                         placeholder="Your Message!!"></textarea></p>
                 <p style="text-align:left; margin-left: 18%; font-size: 19px;" class="fillall">Fill All The Above <span
                         style="color: red;">(*)</span> Mandatory Fields.</p>
-                <p><input type="reset" value="Reset" name="reset" class="Forminput" id="reset">
-                    <input type="submit" value="Submit" name="submit" class="Forminput" id="send"></p>
+                <p><input type="reset" value="Reset" name="reset" class="btn" id="reset">
+                    <input type="submit" value="Submit" name="submit" class="btn" id="send">
+                </p>
 
             </form>
         </div>
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxsmAUN2qUsc1hY6pUUcEQuzy9oKNpZNzTzU9tbD1Xgac6LQoA/exec'
-            const form = document.forms['form']
-
-            form.addEventListener('submit', e => {
-                e.preventDefault()
-                alert("Press Ok to Submit Your Form After That Wait For Few Seconds!!");
-                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => alert("Thanks for Contacting us...! We Will Contact You Shortly..."))
-                    .catch(error => console.error('Error!', error.message))
-            })
-        </script>
     </section>
     <section class="section4">
         <h3>Shivam Graphics</h3>
@@ -134,10 +127,11 @@
     </section>
     <footer>
         <div class="fot">
-        <a href="faq.html">FAQs</a>
-        <a href="tos.html">Terms Of Services</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="refund.html">Refund Policy</a></div>
+            <a href="faq.html">FAQs</a>
+            <a href="tos.html">Terms Of Services</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="refund.html">Refund Policy</a>
+        </div>
         <div class="copy">
             <span style="color: aliceblue;"> &copy; 2021 </span>Shivam Graphics, All Right Reserved.
         </div>
@@ -145,5 +139,5 @@
 
 
 </body>
-
+<script src="js/mainjs.js"></script>
 </html>
