@@ -9,11 +9,15 @@ nav{
     padding-top:100px;
 }
 .logo{
-    position:static;
+    position:absolute;
     width: 120px;
-    top: 3%;
+    top: 16%;
     margin-bottom: 2%;
     
+}
+nav ul li {
+   
+    margin-top:45px;
 }
 #navbar{
     height: 130px;

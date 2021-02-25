@@ -14,9 +14,10 @@
 }
 nav ul li {
     padding:11px 10px;
+    margin-top:58px;
 }
 nav ul li a {
-    font-size:18px;
+    font-size:16px;
 }
 .banner-text p{
     font-size: 15px;
@@ -70,6 +71,7 @@ footer{
 }
 header img{
     width:100px;
+
 }
 header{
     font-size: 25px;
